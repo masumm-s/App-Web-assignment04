@@ -1,0 +1,104 @@
+body{
+    background-color:dimgray;	
+}
+nav{
+    background-color: black;
+    border: 3px solid darkgrey;
+    display: flex;
+    justify-content: right;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+nav a{
+    color: darkgray;
+    font-size: 20px;
+    text-decoration: none;
+    width: 90px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+    font-family: mv boli;
+}
+a:hover{
+    color: black;
+    background-color: silver;
+    transform: scale(1.1);
+}
+.laptops-container{
+    width: 800px;
+    background-color: gainsboro;
+    padding-right:30px;
+    padding-left:30px;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid gray;  
+    margin-top: 80px;
+}
+h1{
+    font-size: 60px;
+    text-align: left;
+}
+ h1 span{
+    margin-left: 15px;
+    font-family: mv boli;
+    color: rgba(59, 55, 55, 0.979);
+}
+h2{
+    font-size: 40px;
+    color:rgba(48, 44, 44, 0.979);
+}
+.img{
+    position: relative;
+}
+.img img{
+    width: 800px;
+    object-fit: cover;
+}
+.img .img-info {
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    opacity: 0.7;
+    background-color: black;
+    color: white;
+}
+.img:hover .img-info {
+    visibility: visible;
+}
+.row2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.row2 .sib{
+    border: 6px solid black;
+    border-radius: 18px;
+    width: 250px;
+    background-color: rgb(54, 54, 56);
+    text-align: center;
+}
+.row2 .sib img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px double white;
+}
+.row2 .sib p{
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    background-color: black;
+    height: 20px;
+}
